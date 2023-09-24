@@ -36,7 +36,7 @@ const Header = async ({ username }) => {
           </Link>
         )}
         <div className='ml-auto'>
-          <UserButton afterSignOutUrl='/' />
+          <UserButton afterSignOutUrl='/sign-in' />
         </div>
       </div>
     </nav>
